@@ -19,6 +19,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon_agriguard.png"
+  # Note: Assure-toi que ce fichier existe dans assets/images/
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/icon_agriguard.png"
 
 flutter:
   uses-material-design: true
