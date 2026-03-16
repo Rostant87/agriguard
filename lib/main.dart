@@ -138,7 +138,7 @@ class HomeScreen extends StatelessWidget {
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
                       content: Text("Erreur : $e"),
-                      backgroundColor: Colors.red,
+                      backgroundColor: Colors.green.shade300,
                     ),
                   );
                 }
